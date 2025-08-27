@@ -355,9 +355,9 @@ if (isset($_POST['update'])) {
 
 // Function to send SMS
 function sendSMS($phone, $student_name, $roll_no, $subject, $marks, $percentage) {
-    $sid = 'AC36f7ea0fe404a0a52dcb4416593e3859';
-    $token = 'cd4f9b348afd26018b261a19c5cf1177';
-    $twilio_number = '+13252412542';
+    $sid = 'your sid';
+    $token = 'your twilio token';
+    $twilio_number = 'your twilio number';
 
     $message = "Dear $student_name, your result for $subject has been updated.\nRoll No: $roll_no\nTotal Marks: $marks\nPercentage: $percentage%";
 
